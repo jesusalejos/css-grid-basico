@@ -2,10 +2,10 @@
   border: 5px solid #e1bee7;
   background-color: #fff1ff;
   display: grid;
-  grid-template-rows: 100px 200px;
+  grid-template-rows: 100px 200px 250px;
   grid-auto-columns: 100px;
   grid-auto-flow: column;
-  gap: 40px;
+  gap: 20px;
 }
 
 .item {

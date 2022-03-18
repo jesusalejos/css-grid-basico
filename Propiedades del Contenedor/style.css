@@ -1,8 +1,20 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  font-size: 62.5%;
+}
+
 .contenedor {
   border: 5px solid #e1bee7;
   background-color: #fff1ff;
   display: grid;
-  grid-template-rows: 100px 200px 250px;
+  grid-template-rows: repeat(3,100px);
   grid-auto-columns: 100px;
   grid-auto-flow: column;
   gap: 20px;
@@ -10,5 +22,10 @@
 
 .item {
   border: 5px solid #00bcd4;
-  font-size: 4rem;
+  font-size: 2.4rem;
+  display: grid;
+  justify-content: end;
+  align-content: flex-end;
+  
 }
+
